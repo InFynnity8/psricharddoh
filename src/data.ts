@@ -61,13 +61,15 @@ export const profile = {
   name: "Richard Kofi Doh",
   shortName: "Richard K. Doh",
   eyebrow: "AI Researcher · Computer Scientist · Educator",
-  role: "MPhil Computer Science (Artificial Intelligence), KNUST",
+  role: "PhD Researcher, Computer Science (Artificial Intelligence), KNUST",
+  tagline: "Building safer and trustworthy AI systems for a digital future.",
   lead:
     "Machine learning and deep learning researcher building AI for healthcare security, accessibility and " +
     "education. IEEE-published author, Elsevier Certified Peer Reviewer and former Graduate Assistant at the " +
     "Department of Computer Science, Kwame Nkrumah University of Science and Technology.",
   location: "Kumasi, Ghana",
   email: "drk.richarddoh@gmail.com",
+  academicEmail: "rkdoh1@knust.st.edu.gh",
   photo: "richard-doh.jpg",
   links: {
     linkedin: "https://gh.linkedin.com/in/doh-richard-438b75218",
@@ -84,9 +86,10 @@ export const stats = [
 ];
 
 export const about = [
-  "Richard Kofi Doh is a Ghanaian computer scientist and artificial intelligence researcher. He holds a Master of " +
-    "Philosophy in Computer Science with a major in Artificial Intelligence and a Bachelor of Science in Computer " +
-    "Science, both from the Kwame Nkrumah University of Science and Technology (KNUST), Kumasi.",
+  "Richard Kofi Doh is a Ghanaian computer scientist and artificial intelligence researcher pursuing a PhD in " +
+    "Computer Science (Artificial Intelligence) at the Kwame Nkrumah University of Science and Technology (KNUST), " +
+    "Kumasi, where he also earned his Master of Philosophy in Computer Science (AI major) and his Bachelor of " +
+    "Science in Computer Science.",
   "His research applies machine learning and deep learning to real problems: transformer-based intrusion detection " +
     "for the Internet of Medical Things (IoMT), sign language translation for more inclusive healthcare, and " +
     "solar-powered offline science laboratories that bring quality education to rural communities in support of " +
@@ -112,7 +115,8 @@ export const interests = [
 
 export const facts: [string, string][] = [
   ["Current role", "Research Assistant, KNUST"],
-  ["Highest degree", "MPhil, Computer Science (AI)"],
+  ["Doctoral study", "PhD, Computer Science (AI)"],
+  ["Previous degree", "MPhil, Computer Science (AI)"],
   ["Institution", "KNUST, Kumasi"],
   ["Focus", "ML / DL Research"],
   ["Peer review", "Elsevier Certified"],
@@ -248,6 +252,12 @@ export const experience: Role[] = [
 ];
 
 export const education: Degree[] = [
+  {
+    year: "PhD",
+    title: "Doctor of Philosophy in Computer Science — Artificial Intelligence",
+    school: "Kwame Nkrumah University of Science and Technology (KNUST)",
+    detail: "Kumasi, Ghana · In progress",
+  },
   {
     year: "2025",
     title: "Master of Philosophy in Computer Science — Artificial Intelligence",

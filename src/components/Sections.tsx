@@ -250,6 +250,7 @@ export function Contact() {
     <section id="contact" className="contact">
       <div className="wrap">
         <SectionHead eyebrow="Contact" title="Let's collaborate" />
+        <p className="tagline">{profile.tagline}</p>
         <p>
           Open to research collaborations, academic positions, peer-review invitations and AI projects in healthcare,
           security and education. References are available on request.
@@ -257,6 +258,9 @@ export function Contact() {
         <div className="btns">
           <a className="btn btn-primary" href={`mailto:${profile.email}`}>
             {profile.email}
+          </a>
+          <a className="btn btn-ghost" href={`mailto:${profile.academicEmail}`}>
+            {profile.academicEmail}
           </a>
           <SocialButtons />
         </div>

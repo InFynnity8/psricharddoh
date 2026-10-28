@@ -35,6 +35,9 @@ export default function Hero() {
               <span>
                 <MailIcon /> <a href={`mailto:${profile.email}`}>{profile.email}</a>
               </span>
+              <span>
+                <MailIcon /> <a href={`mailto:${profile.academicEmail}`}>{profile.academicEmail}</a>
+              </span>
             </div>
             <div className="btns">
               <a className="btn btn-primary" href={`mailto:${profile.email}`}>
